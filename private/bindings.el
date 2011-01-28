@@ -115,6 +115,7 @@
 (global-set-key (kbd "C-c p") 'senny-ido-find-config)
 (global-set-key (kbd "C-f p") 'senny-open-task-file)
 (global-set-key (kbd "M-r") 'replace-string)
+(global-set-key (kbd "M-R") 'replace-regexp)
 (global-set-key [C-return] 'defunkt-duplicate-line)
 (global-set-key (kbd "C-$") 'senny-kill-buffer)
 (global-set-key (kbd "C-c i") 'indent-buffer)
