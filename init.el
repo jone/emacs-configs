@@ -23,6 +23,12 @@
 (add-to-list 'load-path dotfiles-dir)
 (add-to-list 'load-path vendor-dir)
 
+;; Create a ~/.emacsregisters.el on initial emacs start for prevent
+;; emacs from failing.
+(if (string-match "apple" system-configuration)
+    (if (not (file-exists-p (expand-file-name "~/.emacsregisters.el")))
+        (shell-command (concat "touch " (expand-file-name "~/.emacsregisters.el")))))
+
 (load "private/libraries")
 (load "private/backup")
 
