@@ -2,11 +2,15 @@
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
 
 ;; Configuration
-(setq org-agenda-files (directory-files "/Users/jone/idisk/notes/org/" t "^[^.].*")
-      org-log-done t
-      org-clock-persist t
-      org-clock-out-when-done nil
-      org-agenda-clockreport-parameter-plist '(:link nil :maxlevel 4 :emphasize t))
+;; do not configure org-mode directory path when it does
+;; not exist - otherwise the start will fail.
+(let ((org-dir-path (expand-file-name "~/notes/org/")))
+  (if (file-exists-p org-dir-path)
+      (setq org-agenda-files (directory-files org-dir-path t "^[^.].*")
+            org-log-done t
+            org-clock-persist t
+            org-clock-out-when-done nil
+            org-agenda-clockreport-parameter-plist '(:link nil :maxlevel 4 :emphasize t))))
 
 (org-clock-persistence-insinuate)
 
