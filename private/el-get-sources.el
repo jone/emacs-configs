@@ -33,6 +33,8 @@
         senny-rhtml-mode
         senny-cucumber
 
+        jone-multi-term
+
         ;; some packages are not yet in the new elpa
         ;; repository - so use them from source for now
         (:name gist
