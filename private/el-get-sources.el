@@ -2,7 +2,6 @@
 
 (setq el-get-sources
       '(el-get
-        gist
         yaml-mode
         rinari
         maxframe
@@ -34,10 +33,14 @@
         senny-rhtml-mode
         senny-cucumber
 
-        (:name idle-highlight   :type elpa)
-        (:name ruby-mode        :type elpa)
-        (:name ruby-compilation :type elpa)
-        (:name inf-ruby         :type elpa)
+        ;; some packages are not yet in the new elpa
+        ;; repository - so use them from source for now
+        (:name gist
+               :type git
+               :url "https://github.com/defunkt/gist.el.git")
+        (:name idle-highlight
+               :type git
+               :git "https://github.com/emacsmirror/idle-highlight.git")
 
         ))
 
