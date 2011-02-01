@@ -43,7 +43,9 @@
 (add-hook 'coding-hook 'turn-on-whitespace)
 (add-hook 'coding-hook 'pretty-lambdas)
 (add-hook 'coding-hook 'add-watchwords)
-(add-hook 'coding-hook 'idle-highlight)
+(if (fboundp 'idle-highlight)
+    (add-hook 'coding-hook 'idle-highlight)
+  (message "Disabling idle-highlight: not yet installed"))
 
 (defun run-coding-hook ()
   "Enable things that are convenient across all coding buffers."
