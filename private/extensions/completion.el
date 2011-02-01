@@ -1,11 +1,13 @@
 (set-default 'senny-completion-function 'auto-complete)
 
 ;;;; Yasnippet
-(setq yas/root-directory (concat private-config-dir "/snippets"))
-(setq yas/prompt-functions '(yas/dropdown-prompt yas/ido-prompt))
-(yas/load-directory yas/root-directory)
-(set-default 'yas/fallback-behavior '(apply senny-indent-or-complete))
-(yas/initialize)
+;; do not try to use yas when its not yet installed by elpa
+(when (fboundp 'yas/load-directory)
+  (setq yas/root-directory (concat private-config-dir "/snippets"))
+  (setq yas/prompt-functions '(yas/dropdown-prompt yas/ido-prompt))
+  (yas/load-directory yas/root-directory)
+  (set-default 'yas/fallback-behavior '(apply senny-indent-or-complete))
+  (yas/initialize))
 
 ;;;; auto-complete
 (vendor 'auto-complete)
