@@ -40,9 +40,6 @@
         (:name gist
                :type git
                :url "https://github.com/defunkt/gist.el.git")
-        (:name idle-highlight
-               :type git
-               :git "https://github.com/emacsmirror/idle-highlight.git")
 
         ))
 
