@@ -13,6 +13,7 @@
         sass-mode
         yari
         rvm
+        theme-roller
 
         senny-textmate
         senny-ido-hacks
