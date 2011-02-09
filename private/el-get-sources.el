@@ -34,6 +34,7 @@
         senny-cucumber
 
         jone-multi-term
+        jone-full-ack
 
         ;; some packages are not yet in the new elpa
         ;; repository - so use them from source for now
