@@ -14,6 +14,7 @@
         yari
         rvm
         theme-roller
+        python-pep8
 
         senny-textmate
         senny-ido-hacks
