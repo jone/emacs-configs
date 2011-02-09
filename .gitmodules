@@ -1,3 +1,0 @@
-[submodule "vendor/mrsd.el"]
-	path = vendor/mrsd.el
-	url = git@github.com:collective/mrsd.el.git
