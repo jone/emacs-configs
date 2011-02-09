@@ -16,6 +16,7 @@
         theme-roller
         python-pep8
         po-mode
+        undo-tree
 
         senny-textmate
         senny-ido-hacks
