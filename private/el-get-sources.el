@@ -15,6 +15,7 @@
         rvm
         theme-roller
         python-pep8
+        po-mode
 
         senny-textmate
         senny-ido-hacks
