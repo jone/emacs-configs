@@ -1,6 +1,3 @@
-[submodule "vendor/rvm.el"]
-	path = vendor/rvm.el
-	url = https://github.com/senny/rvm.el.git
 [submodule "vendor/theme-roller.el"]
 	path = vendor/theme-roller.el
 	url = https://github.com/senny/theme-roller.el.git

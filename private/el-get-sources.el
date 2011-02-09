@@ -12,6 +12,7 @@
         haml-mode
         sass-mode
         yari
+        rvm
 
         senny-textmate
         senny-ido-hacks
