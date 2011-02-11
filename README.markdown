@@ -3,20 +3,20 @@
 My personal emacs configuration.
 
 *   Python development
- *  pyflakes checks using flymake
- *  pep8 checks (key `C-°`)
+**  pyflakes checks using flymake
+**  pep8 checks (key `C-°`)
 *   HTML / XML
- *  Validation with `XML Starlet` using flymakes
+**  Validation with `XML Starlet` using flymakes
 *   [Plone](http://www.plone.org/) / Zope development
- *  Run zope instance within emacs in pdb mode (using emacs gud) (`C-c f f`)
- *  Run `i18ndude` within emacs (`C-c f i` and `C-c f C-i`)
- *  Run `plone.reload` from emacs (`C-c f r`)
+**  Run zope instance within emacs in pdb mode (using emacs gud) (`C-c f f`)
+**  Run `i18ndude` within emacs (`C-c f i` and `C-c f C-i`)
+**  Run `plone.reload` from emacs (`C-c f r`)
 *   [Perspectives](https://github.com/nex3/perspective-el)
- *  Switching between multiple perspective (`C-p s`)
- *  Opening buildout-based projects directly with perspective (`C-p b`)
- *  Jabber perspective (`C-p j`)
+**  Switching between multiple perspective (`C-p s`)
+**  Opening buildout-based projects directly with perspective (`C-p b`)
+**  Jabber perspective (`C-p j`)
 *   `multi-term` integration with zsh (`C-p t` and `C-x t`)
- *  See also my [dotfiles](https://github.com/jone/dotfiles) for zsh configuration
+**  See also my [dotfiles](https://github.com/jone/dotfiles) for zsh configuration
 *   Packages are installed using [el-get](https://github.com/dimitri/el-get)
 
 And lots of addons more..
@@ -25,11 +25,11 @@ And lots of addons more..
 
 ## Installation of emacs und utils
 
-I'm using this configuration on **Mac OS X** with **cocoa emacs**.
+I'm using this configuration on***Mac OS X** with***cocoa emacs**.
 
-*  Install [homebrew](https://github.com/mxcl/homebrew), *the missing package manager for OS X*
+*  Install [homebrew](https://github.com/mxcl/homebrew),**the missing package manager for OS X*
 *  Install cocoa emacs using homebrew: `brew install emacs --use-git-head --HEAD --cocoa`
-*  For jabber support install *gnutls*: `brew install gnutls` (optional)
+*  For jabber support install**gnutls*: `brew install gnutls` (optional)
 *  XML Starlet for xml flymake checks: `brew install xmlstarlet` (optional)
 *  [contacts](http://gnufoo.org/contacts/) for mail / sms (optional)
 *  Markdown command for markdown-mode: `brew install markdown` (optional)
@@ -47,11 +47,11 @@ I'm using this configuration on **Mac OS X** with **cocoa emacs**.
 ## Using pep8 and pyflakes for python development
 
 *  Install [`pep8`](http://pypi.python.org/pypi/pep8)
- * wither with `easy_install pep8` or using buildout with `zc.recipe.egg`
- * Make sure the installed `pep8`-script is in your PATH
+** wither with `easy_install pep8` or using buildout with `zc.recipe.egg`
+** Make sure the installed `pep8`-script is in your PATH
 *  Install [`pyflakes`](http://pypi.python.org/pypi/pyflakes)
- * with `easy_install pyflakes`
- * Symlink the generated `pyflakes`-script to `~/bin/pyflakes`
+** with `easy_install pyflakes`
+** Symlink the generated `pyflakes`-script to `~/bin/pyflakes`
 
 
 ## First steps
