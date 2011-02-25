@@ -37,6 +37,7 @@
         senny-markdown-mode
         senny-rhtml-mode
         senny-cucumber
+        senny-popwin
 
         jone-multi-term
         jone-full-ack
