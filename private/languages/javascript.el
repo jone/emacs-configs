@@ -56,12 +56,7 @@
      (define-key js-mode-map (kbd ",") 'self-insert-command)
      (font-lock-add-keywords 'js-mode
                              '(("\\<\\(FIX\\|TODO\\|FIXME\\|HACK\\|REFACTOR\\):"
-                                1 font-lock-warning-face t)))
-     (font-lock-add-keywords
-      'js-mode `(("\\(function *\\)("
-                        (0 (progn (compose-region (match-beginning 1)
-                                                  (match-end 1) "ƒ")
-                                  nil)))))))
+                                1 font-lock-warning-face t)))))
 
 ;; Hooks
 (defun default-javascript-mode-hook ()
