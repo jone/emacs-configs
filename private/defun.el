@@ -48,10 +48,10 @@
 (defun senny-ido-find-project ()
   (interactive)
   (let ((project-name (ido-completing-read "Project: "
-                                           (directory-files "~/Projects/" nil "^[^.]"))))
+                                           (directory-files "~/projects/" nil "^[^.]"))))
     (senny-persp project-name)
     (find-file (ido-open-find-directory-files
-                (concat "~/Projects/" project-name)))))
+                (concat "~/projects/" project-name)))))
 
 (defun senny-open-task-file ()
   (interactive)
