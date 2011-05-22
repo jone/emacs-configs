@@ -39,7 +39,7 @@ I'm using this configuration on **Mac OS X** with **cocoa emacs**.
 
 *  Fork my emacs configs on github
 *  Clone your forked emacs repo with git into any path you like (I have it under ~/projects/emacs-configs) using git (e.g. `git clone git@github.com:user/emacs-configs.git)
-*  Install emacs configs by symlinking it from `~/.emacs.d` (e.g. `ln -s /Users/username/.emacs.d /Users/username/projects/emacs-configs`)
+*  Install emacs configs by symlinking it from `~/.emacs.d` (e.g. `ln -s /Users/username/projects/emacs-configs /Users/username/.emacs.d`)
 *  Start emacs from shell using `open -a emacs` or `emacsclient`
 *  On initial run, various plugins will be installed using el-get. When errors occur, restart emacs again. This may take some minutes.
 
