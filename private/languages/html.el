@@ -6,6 +6,7 @@
 (add-to-list 'auto-mode-alist '("\\.tld$" . nxml-mode))
 (add-to-list 'auto-mode-alist '("\\.zcml$" . nxml-mode))
 (add-to-list 'auto-mode-alist '("\\.pt$" . nxml-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache$" . nxml-mode))
 
 ;; Hooks
 (defun default-html-mode-hook ()
