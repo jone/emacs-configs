@@ -1,3 +1,11 @@
+
+# UNMAINTAINED
+
+**This repository is unmaintained and will vanish! Use [e-max](http://github.com/senny/e-max)!**
+
+***
+
+
 # Emacs Configuration
 
 My personal emacs configuration.
